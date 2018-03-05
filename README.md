@@ -8,10 +8,10 @@ To use it, create a docker-compose.yml with:
 ```
 version: '3'
   services:
-    cronjob:
+    cronjobs:
     restart: unless-stopped
-    image: tigpt/cronjob
-    container_name: cronjob
+    image: tigpt/cronjobs
+    container_name: cronjobs
     volumes:
       - ./volumes/root:/etc/crontabs/root
 ```
