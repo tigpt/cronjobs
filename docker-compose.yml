@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    cronjob:
+      restart: unless-stopped
+      image: tigpt/cronjob
+      container_name: cronjob
+      volumes:
+        - ./volumes/root:/etc/crontabs/root
