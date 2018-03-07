@@ -1,7 +1,7 @@
 # cronjobs
 Docker alpine with curl for cronjobs
 
-Simple image of Alpine with curl to run my corncobs
+Simple image of Alpine with curl to run my cronjobs
 
 To use it, create a docker-compose.yml with:
 
