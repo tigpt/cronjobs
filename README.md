@@ -1,5 +1,4 @@
-[![](https://images.microbadger.com/badges/image/tigpt/cronjobs.svg)](https://microbadger.com/images/tigpt/cronjobs "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/tigpt/cronjobs.svg)](https://microbadger.com/images/tigpt/cronjobs "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/tigpt/cronjobs.svg)](https://microbadger.com/images/tigpt/cronjobs "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/tigpt/cronjobs.svg)](https://microbadger.com/images/tigpt/cronjobs "Get your own version badge on microbadger.com")
 # cronjobs
 Docker alpine with curl for cronjobs
 
