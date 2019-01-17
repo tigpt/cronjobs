@@ -20,3 +20,15 @@ version: '3'
 put in ./volumes/root:/etc/crontabs/root folder your cronjobs
 
 For more info on alpine cron: http://www.jimpryor.net/linux/dcron.html
+
+# Logs
+Set cron output to /dev/stdout to see the cron logs
+```
+* * * * * curl -v https://tig.pt/test-cron > /dev/stdout
+```
+Read them with `docker logs [container_name]`
+
+Alternatively add a volume to your local machine like this and set your cronjobs to log to that /var/log/
+```
+- ./log:/var/log/
+```
